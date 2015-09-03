@@ -1,0 +1,101 @@
+/* 图片轮播 */
+.carousel-caption{
+	color: #fff;
+}
+.carousel-control{
+	width: 20px;
+	height: 20px;
+  margin-top: 5px;
+}
+/* 新闻  */
+.news .nav{
+	margin:0px;
+}
+.news ul.nav-tabs li a{
+	font-size: 14px;
+	padding: 7px 30px 3px 30px;
+	color: #000;
+	border-radius: 0;
+}
+.news-day{
+	float: right;
+}
+.news .tab-content{
+	margin: 14px 0px;
+}
+.news .tab-content ul li{
+	font-size: 13px;
+	color: #333;
+	clear: both;
+}
+.news .tab-content a{
+	float: left;
+}
+
+/* 人才招聘，投资程序 */
+.j-p-q{
+	border: #ddd 1px solid;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.j-p-q ul li{
+	float: left;
+}
+.j-p-q ul li img{
+	float: left;
+}
+.j-p-q ul li a{
+	margin: 0px 4px; 
+	float: left;
+	margin-top: 15px;
+  font-size: 12px;
+}
+
+/* 投资指南 */
+.products{
+	overflow: hidden;
+}
+.products-list ul li{
+	float: left;
+  margin-left: 16px;
+}
+.products-list ul li img{
+	float: left;
+  margin-right: 17px;
+}
+.products-list ul li a{
+	float: left;
+	width: 85px;
+	font-size: 12px;
+}
+
+/*公司历史部分*/
+.wendo-history{
+	overflow: hidden;	
+}
+span.sum{
+	float: right;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+}
+.wendo-history h3{
+  font-size: 12px;
+  font-weight: normal;
+  border: #ddd 1px solid;
+	line-height: 30px;
+	margin: 0;
+  padding: 0px 13px;
+  margin-top: 3px;
+}
+.wendo-history ul li{
+	width: 100%;
+}
+.wendo-history div{
+	margin: 5px 20px;
+	font-size: 12px;
+}
+.wendo-history p{
+	float: left;
+	margin: 24px 0px;
+}

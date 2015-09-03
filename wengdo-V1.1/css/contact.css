@@ -1,0 +1,197 @@
+.content-nav{
+	float: left;
+	border-radius: 5px;	
+	border: #2853A1 2px solid;
+	position: relative;
+  width: 83%;
+  margin-top: 10px;
+  padding: 0px 25px;
+}
+/* 小图标 */
+.nav-ornaments{
+	position: absolute;
+  top: -32px;
+  left: 50%;
+  margin-left: -10px;
+}
+.content-nav h1{
+	border-bottom: #ddd 3px solid;
+	font-size: 16px;
+}
+.content-nav ul{
+	margin-top: 5px;
+	margin: 0;
+}
+.content-nav ul li{
+	line-height: 37px;
+	border-bottom: #ddd 1px dotted;
+}
+.content-nav ul li a{
+	font-size: 12px;
+}
+.content-main{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.content-main h1{
+	border-left: #2853A1 3px solid;
+	margin-bottom: 5px;
+	padding: 2px 16px;
+	font-size: 14px;
+	float: left;
+}
+.content-main h1 small{
+	font-size: 12px;
+	color: #333;
+}
+.content-main .hr{
+	width: 100%;
+	height: 1px;
+	clear: both;
+	background: #DCDCDC;
+}
+.wengdo-addr-nav{
+	float: right;
+	margin-top: 20px;
+}
+
+/*固定子页面*/
+.contact-content{
+	margin: 20px 10px;
+}
+
+
+/*新闻news.html*/
+.user-mess-tootip{
+	background: #eee;
+	height: 70px;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 20px 3px;
+}
+.user-mess-item{
+  float: right;
+  font-size: 14px;
+  margin: 20px 20px;
+}
+
+/* 人才招聘 */
+.invite-job-list ul h2{
+	font-size: 14px;
+}
+.invite-job-list ul li{
+	border: #ddd 7px solid;
+	float: left;
+	width: 39%;
+	padding:7px;
+	position: relative;
+  margin-left: 13px;
+  margin-bottom: 11px;
+}
+
+/* 产品展示 */
+.product-show{
+	margin: 30px 40px;
+}
+
+/* 我的留言 */
+
+.user-mess-form{
+	margin-top: 30px;
+	border-top: blue 3px solid;
+}
+.user-mess-form div{
+	margin-bottom: 10px;
+	border-bottom: #ddd 1px dotted;
+	padding-left: 25px;
+	line-height: 30px;
+}
+.user-mess-form form{
+	margin-top: 20px;
+}
+.user-mess-form form label{
+	float: left;
+	width: 100px;
+}
+/*.user-mess-form form input{
+	height: 30px;
+	line-height: 30px;
+}*/
+button.user-mess-confirm,button.user-mess-reset{
+	border:#ccc 1px solid;
+	padding: 5px 10px;
+	color: #000;
+	background: #fdfdfd;
+	text-align: center;
+	margin-right: 10px;
+}
+.user-mess-form div.user-form-btn{
+	margin-left: 100px;
+	border:none;
+} 
+
+/* CEO致词 */
+.ceo-contacts{
+	margin-top: 30px; 
+	padding: 20px;	
+	border: #ddd 1px solid;
+	position: relative;
+	overflow: hidden;
+}
+.ceo-contacts ul li{
+	line-height: 30px;
+}
+.ceo-contacts ul li span{
+	margin-left: 20px;
+}
+
+/* 公司历史 */
+
+.history-list{
+	clear: both;
+	overflow: hidden;
+	border-bottom: #ddd 1px dashed;
+}
+.history-list h2{
+	float: left;
+	color: blue;
+	font-size: 39px;
+	font-weight: normal;
+	margin:15px 5px;
+}
+.history-list ul{
+	float: left;
+	width: 220px;
+	margin-left: 30px;
+}
+.history-list ul li{
+	line-height: 35px;
+	font-weight: normal;
+}
+
+/* 客户留言  */
+.contact-content ul{
+	margin: 0;
+}
+.guestbook-content ul li{
+	overflow: hidden;
+	border-bottom: #ddd 1px dotted;
+	line-height: 30px;
+	padding-bottom: 20px; 
+}
+.view-details button{
+	float: left;
+}
+.guestbook-date{
+	float: right;
+}
+
+.user-com-cont{
+	height: 30px;
+	white-space:nowrap;
+	/*自动换行*/
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*文本缩略...*/
+}
